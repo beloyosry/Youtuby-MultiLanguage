@@ -1,0 +1,142 @@
+.card:hover {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+
+.watch-page .watch-icons {
+    position: absolute;
+    bottom: 5px;
+}
+
+.watch-page .watch-icons {
+    cursor: pointer;
+}
+
+.watch-page .watch-icons i {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.watch-page .watch-icons i:hover {
+    transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    -o-transform: translateY(-5%);
+}
+
+.watch-page #more {
+    display: none;
+}
+
+.watch-page .card-block p {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.card-inner {
+    display: none;
+}
+
+.public-comment .card .btn {
+    background-color: #921192;
+    border-color: #921192;
+    color: #fff;
+}
+
+.public-comment .card .btn:hover {
+    background-color: #b915b9;
+}
+
+time {
+    left: 24px !important;
+}
+
+.watch-page .fa-play {
+    right: 46% !important;
+}
+
+.dropdown-menu.show {
+    inset: 0 105px auto auto !important;
+}
+
+.add {
+    border: none;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.comment-card .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.comment-card .task:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.comment-card .task:hover {
+    background-color: #f7f7f7;
+}
+
+.comment-card .task.done {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.comment-card .task span {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    time {
+        font-size: 13px;
+    }
+
+    .fa-play {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 1062px) {
+    #myBtn {
+        margin-bottom: 60px !important;
+    }
+}
+
+@media (max-width: 570px) {
+    .reply-time {
+        font-size: 10px;
+    }
+}
